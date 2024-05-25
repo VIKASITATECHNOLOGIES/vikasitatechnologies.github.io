@@ -758,7 +758,7 @@ a:focus {
   padding: 20px;
   font-weight: 500;
 }
-.address{
+.container .info_item .address{
 	margin-left: 26%;
     font-size: 21px;
 }
