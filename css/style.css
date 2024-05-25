@@ -1,5 +1,4 @@
 body {
-  /* font-family: 'Poppins', sans-serif; */
   color: #000000;
   background-color: #ffffff;
 }
@@ -8,9 +7,9 @@ body {
 	font-family: 'BankGothicRegular';
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10279">Text with this font applied</p> */
-.fontsforweb_fontid_10279 {
+/* .fontsforweb_fontid_10279 {
 	font-family: 'BankGothicRegular' !important;
-}
+} */
 * {
   padding:0;
   margin:0;
