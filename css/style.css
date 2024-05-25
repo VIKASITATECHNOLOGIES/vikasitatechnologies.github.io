@@ -777,7 +777,7 @@ a:focus {
 
 .about {
   display: flex;
-  margin-top: -12%;
+  margin-top: -20%;
   height: 70vh;
   flex-flow: nowrap;
   align-items: center;
