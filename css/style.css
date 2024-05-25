@@ -758,7 +758,10 @@ a:focus {
   padding: 20px;
   font-weight: 500;
 }
-
+.address{
+	margin-left: 26%;
+    font-size: 21px;
+}
 .footer_section p {
   color: #292929;
   margin: 0;
