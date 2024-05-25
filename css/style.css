@@ -3,9 +3,24 @@ body {
   background-color: #ffffff;
 }
 
+/* Example CSS to include Bank Gothic font */
+
 @font-face {
-	font-family: 'BankGothicRegular';
+    font-family: 'BankGothic';
+    src: url('/fonts/BankGothic.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/BankGothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/BankGothic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/BankGothic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/BankGothic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/BankGothic.svg#BankGothic') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    font-family: 'BankGothic', sans-serif;
+}
+
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10279">Text with this font applied</p> */
 /* .fontsforweb_fontid_10279 {
 	font-family: 'BankGothicRegular' !important;
